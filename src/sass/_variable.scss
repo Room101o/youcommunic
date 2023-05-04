@@ -6,6 +6,7 @@ $bg-about: #334d5c;
 $bg-btn: #334d5c;
 $bg-cards: #eae3d6;
 $bg-footer: #393a3b;
+$icons:#EAE3D6;
 
 $custom-color: (
   "head": $bg-header,
@@ -13,6 +14,7 @@ $custom-color: (
   "cards": $bg-cards,
   "footer": $bg-footer,
   "blue": $bg-about,
+  "icons":$icons,
 );
 $theme-colors: map-merge($theme-colors, $custom-color);
 /****************************************/
