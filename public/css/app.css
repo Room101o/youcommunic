@@ -48,7 +48,12 @@
     margin-top: 7%;
   }
   .eclution h1, .eclution .h1 {
-    padding: 10px 18px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
   }
 }
 @media (min-width: 768px) and (max-width: 800px) {
@@ -59,8 +64,8 @@
     font-size: 16px;
   }
 }
-.eclution {
-  margin: 10px 18px;
+.eclution h1, .eclution .h1 {
+  padding: 15px 20px;
 }
 
 .footer {

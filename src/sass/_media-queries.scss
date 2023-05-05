@@ -63,9 +63,14 @@
 
     .eclution{
         h1{
+            font-size: 20px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 12px;
 
             
-            padding: 10px 18px;
         }
     }
 };
@@ -86,7 +91,10 @@
     }
 };
 .eclution{
-    margin: 10px 18px;
+    h1{
+
+        padding: 15px 20px;
+    }
 }
 .footer{
     height: auto;
